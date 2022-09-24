@@ -1,0 +1,33 @@
+#content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: lightslategray;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    grid: display;
+    padding: 1.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header img {
+    grid: display;
+    float: left;
+    
+    border-radius: 10px;
+    width: 200px;
+    height: auto; 
+}
