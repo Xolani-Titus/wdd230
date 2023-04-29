@@ -1,5 +1,5 @@
 #content {
-  max-width: 1600px;
+  max-width: 50%;
   margin: 0 auto;
 }
 body {
@@ -24,6 +24,7 @@ nav {
 h1, h2 {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Roboto', sans-serif;
+  
 }
 
 header img {
