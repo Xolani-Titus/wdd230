@@ -1,0 +1,41 @@
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+body {
+  font-size: 40px;
+  
+}
+
+header, footer {
+    background-color: lightslategray;
+    color: #fff;
+    text-align: center;
+}
+header {
+  display: grid;
+  padding: 1.5rem;
+  grid-template-columns: 1000px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+header img {
+    float: left;   
+    box-shadow: 5px 5px 10px lightcyan;
+    border: 10px solid gainsboro;
+    border-radius: 50px;
+    
+  
+}
+footer {
+  padding: 5.5rem;
+}
+
+
